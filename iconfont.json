@@ -1,0 +1,114 @@
+{
+  "id": "3409892",
+  "name": "练习用",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15838453",
+      "name": "customer-service",
+      "font_class": "customer-service",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "34023422",
+      "name": "chat_line",
+      "font_class": "chat_line",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "34024238",
+      "name": "phone_line",
+      "font_class": "phone_line",
+      "unicode": "e787",
+      "unicode_decimal": 59271
+    },
+    {
+      "icon_id": "34024395",
+      "name": "qq_line",
+      "font_class": "qq_line",
+      "unicode": "e794",
+      "unicode_decimal": 59284
+    },
+    {
+      "icon_id": "34024519",
+      "name": "wechat_line",
+      "font_class": "wechat_line",
+      "unicode": "e7d5",
+      "unicode_decimal": 59349
+    },
+    {
+      "icon_id": "33986994",
+      "name": "在线咨询",
+      "font_class": "zaixianzixun",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "33986996",
+      "name": "消息-置灰",
+      "font_class": "xiaoxi-zhihui",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "34023435",
+      "name": "clipboard_line",
+      "font_class": "clipboard_line",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "34023648",
+      "name": "data_preview_line",
+      "font_class": "data_preview_line",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "33035583",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "201638",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10670577",
+      "name": "address",
+      "font_class": "address",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "10485800",
+      "name": "shop",
+      "font_class": "shop",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "15838431",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "15838525",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    }
+  ]
+}
