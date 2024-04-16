@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var syjson = {
+            "name": "json.json",
+            "sy": "123",
+        };
+        var xml = new XMLHttpRequest();
+        xml.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                //JSON.parse()
+                alert(this.responseText);
+            };
+            if (this.readyState == 4 && this.status != 200) {
+                alert("弹幕访问失败");
+            };
+
+        };
+        xml.open("post", "弹幕json处理.ashx", true);
+        xml.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xml.send(JSON.stringify(syjson));
+    </script>
+</head>
+<body>
+    <div>可恶</div>
+</body>
+</html>
