@@ -33,14 +33,14 @@ public class 弹幕json处理 : IHttpHandler {
 
     public string addjson(string filename,JObject addjob)
     {
-        //string jsonfile =filename;
-        string jsonString = "D:\\qmsy\\历史用\\历史用\\" + filename;
+        string jsonfile =filename;
+        //string jsonString = "D:\\qmsy\\历史用\\历史用\\" + filename;
         if (File.Exists(jsonString))
         {
-            //string jsonString = File.ReadAllText(jsonfile, Encoding.Default);//读取文件
+            string jsonString = File.ReadAllText(jsonfile, Encoding.Default);//读取文件
             //string jsonString ="D:\\qmsy\\历史用\\历史用\\" + jsonfile;//读取文件
-            string jsonString1 = File.ReadAllText(jsonString, Encoding.Default);
-            JObject jobject = JObject.Parse(jsonString1);//解析成json
+            //string jsonString1 = File.ReadAllText(jsonString, Encoding.Default);
+            JObject jobject = JObject.Parse(jsonString);//解析成json
             jobject["sy"] = addjob["add"];//替换需要的文件
             string convertString = Convert.ToString(jobject);//将json装换为string
             File.WriteAllText(jsonString, convertString);//将内容写进jon文件中
