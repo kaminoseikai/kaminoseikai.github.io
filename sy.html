@@ -7,7 +7,10 @@
         const enableFeature = async () => {
       await document.featurePolicy.requestPermission('browsing-topics');
       // 在此处编写其他代码
-             var syjson = {
+             
+        //JSON.stringify(syjson)
+    };
+        var syjson = {
             "name": "json.json",
             "sy": "123",
         };
@@ -25,8 +28,6 @@
         xml.open("post", "弹幕json处理.ashx", true);
         xml.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xml.send(JSON.stringify(syjson));
-        //JSON.stringify(syjson)
-    };
         //await document.featurePolicy.requestPermission('browsing-topics');
        
     </script>
