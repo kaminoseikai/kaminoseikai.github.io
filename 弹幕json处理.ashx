@@ -11,6 +11,7 @@ using System.Windows;
 public class 弹幕json处理 : IHttpHandler {
 
     public void ProcessRequest (HttpContext context) {
+        context.Response.Write("yes");
         context.Response.ContentType = "text/plain";
         string json = context.Server.UrlDecode(context.Request.Form.ToString());
         JObject job = JObject.Parse(json);
