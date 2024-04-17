@@ -4,12 +4,7 @@
     <meta charset="utf-8" />
     <title></title>
     <script>
-        const enableFeature = async () => {
-      await document.featurePolicy.requestPermission('browsing-topics');
-      // 在此处编写其他代码
-             
-        //JSON.stringify(syjson)
-    };
+       
         var syjson = {
             "name": "json.json",
             "sy": "123",
@@ -25,9 +20,9 @@
             };
 
         };
-        xml.open("post", "弹幕json处理.ashx", true);
+        xml.open("get", "弹幕json处理.ashx", true);
         xml.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xml.send(JSON.stringify(syjson));
+        xml.send();
         //await document.featurePolicy.requestPermission('browsing-topics');
        
     </script>
